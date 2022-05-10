@@ -1,0 +1,135 @@
+h1,h2 {
+    color:aliceblue;
+    text-shadow: 2px 2px 10px blue;
+}
+
+#header {
+    background-color: greenyellow;
+    position: relative;
+    width: auto;
+    height: 240px;
+    
+}
+
+#header h1 {
+    font-size: 250%;
+    display: flex;
+    flex-flow: row wrap;
+    font-family: 'Cinzel Decorative', cursive;
+    position: absolute;
+    text-transform: uppercase;
+    padding-left: 550px;
+}
+
+#header img {
+    position: absolute;
+    padding-top: 10px;
+    padding-left:1400px;
+}
+
+#header nav {
+    padding-top:120px;
+    height: 80px;
+    display: flex;
+    
+}
+
+#header nav ul {
+    padding: 0;
+    list-style: none;
+    display: flex;
+    flex: 2;
+    background-color: green;
+    border-radius: 20px;
+}
+
+#header nav ul li {
+    display: inline;
+    text-align: center;
+    flex: 1;
+
+}
+
+#header nav li a{
+
+    display:inline-block;
+    text-decoration: none;
+    font-size: 30px;
+    color:aquamarine;
+    transition: transform 1s;
+}
+
+#header nav li a:hover {
+    height: 40px;
+    transform: scale(1.5);
+    color:goldenrod;
+}
+
+#main {
+    padding: 10px;
+    height: 520px;
+    width: auto;
+    background-color: greenyellow;
+}
+
+#main section {
+    margin: 10px;
+    width: 900px;
+    height: 500px;
+    float: left;
+    background-color: green;
+}
+
+#main section h2 {
+    text-transform: uppercase;
+    font-family: 'Cinzel Decorative', cursive;
+    padding-top: 30px;
+    padding-left: 400px;
+    font-size: 250%;
+}
+
+#main section p {
+    font-family: sans-serif;
+    color: bisque;
+    padding-left: 40px;
+    font-size: large;
+    line-height: 0.7cm;
+    text-align: left;
+}
+
+#main aside {
+    margin: 10px;
+    width: 540px;
+    height: 500px;
+    float: left;
+    background-color: green;
+}
+
+#main aside h2{
+    text-transform: uppercase;
+    font-family: 'Cinzel Decorative', cursive;
+    padding-top: 30px;
+    text-align: center;
+    padding-left: 15px;
+    font-size: 250%;
+}
+#main aside a {
+    display: block;
+    float: left;
+    width: 50%;
+}
+
+#main aside img {
+    max-width: 100%;
+}
+
+#bottom {
+    padding: 20px;
+    width: auto;
+    height: 100px;
+    background-color: greenyellow;
+}
+
+#bottom p {
+    font-size: 150%;
+}
